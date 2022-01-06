@@ -7,7 +7,13 @@ var Numeric = ["0","1","2","3","4","5","6","7","8","9"]
 var SpecialCharacters = ["#","!","@","<>","£","%","*","/","%"]
 var password = []
 
-
+function generatePassword() {
+  var length = (prompt("Between 8 and 128 characters, how long would you like your password to be?"));
+  if (length <7 || length <128) {
+    alert("Your password must be between 8 and 128 characters");
+    prompt("Please choose between 8 and 128 characters");
+  }
+}
 
 
 
