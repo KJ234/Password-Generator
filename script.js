@@ -21,7 +21,7 @@ if (length <8 || length >128) {
  var Numeric = confirm("Do you want your password to have Numeric characters?");
  var UpperCase = confirm("Do you want your password to have Upper case characters?");
  var LowerCase = confirm("Do you want your password to have lower case characters?");
- if (SpecialCharacters, Numeric, UpperCase, LowerCase === false) {
+ while (SpecialCharacters, Numeric, UpperCase, LowerCase === false) {
    alert("One of the previous must be chosen!")
  SpecialCharacters = confirm("Do you want your password to have special characters?");
  Numeric = confirm("Do you want your password to have Numeric characters?");
