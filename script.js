@@ -9,19 +9,26 @@ var password = []
 
 function generatePassword() {
   var length = (prompt("Between 8 and 128 characters, how long would you like your password to be?"));
-  if (length <7 || length <128) {
-    alert("Your password must be between 8 and 128 characters");
-    prompt("Please choose between 8 and 128 characters");
-  }
+if (length <8 || length >128) {
+ alert("Your password must be between 8 and 128 characters");
+ var length = (prompt("Between 8 and 128 characters, how long would you like your password to be?"));
+ if (length === false) {
+   alert("Please choose a Number between 8 and 128");
+ }
 }
 
-
-
-
-
-
-
-
+ var SpecialCharacters = confirm("Do you want your password to have special characters?");
+ var Numeric = confirm("Do you want your password to have Numeric characters?");
+ var UpperCase = confirm("Do you want your password to have Upper case characters?");
+ var LowerCase = confirm("Do you want your password to have lower case characters?");
+ if (SpecialCharacters, Numeric, UpperCase, LowerCase === false) {
+   alert("One of the previous must be chosen!")
+ SpecialCharacters = confirm("Do you want your password to have special characters?");
+ Numeric = confirm("Do you want your password to have Numeric characters?");
+ UpperCase = confirm("Do you want your password to have Upper case characters?");
+ LowerCase = confirm("Do you want your password to have lower case characters?");
+}
+}
 
 
 
