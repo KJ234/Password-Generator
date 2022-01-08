@@ -2,7 +2,7 @@
 
 ## Description
 
-The homework for this week was to create a password based on a series of prompts. We were given starter code.
+The homework for this week was to create a password based on a series of prompts. We were given starter code. When you click Generate Password, a sequence of prompts will appear. Once you've selected your characters, a password should appear on the page.
 
 ## Criteria
 
