@@ -21,7 +21,7 @@ The password will be generated and displayed in the box when you answer the prom
 
 ## Problems:
 
-If the user presses cancel on confirmations, a password will be generated regardless of the user's preference. Unfortunately, this is a problem that must be addressed.
+If the user presses cancel on confirmations, a password will be generated regardless of the user's preference. Unfortunately, this is a problem that must be addressed. When all of the confirmation boxes are checked, it works well.
 
 
 
