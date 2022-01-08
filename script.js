@@ -18,10 +18,22 @@ if (length <8 || length >128) {
 }
 
  var SpecialCharacter = confirm("Do you want your password to have special characters?");
+ if (SpecialCharacters) {
+   password = password.concat(SpecialCharacters)
+ }
  var NumericCharacter = confirm("Do you want your password to have Numeric characters?");
+ if (Numeric) {
+  password = password.concat(Numeric)
+}
  var UpperCaseCharacter = confirm("Do you want your password to have Upper case characters?");
+ if (UpperCase) {
+  password = password.concat(UpperCase)
+}
  var LowerCaseCharacter = confirm("Do you want your password to have lower case characters?");
- while (!SpecialCharacter, !NumericCharacter, !UpperCaseCharacter, !LowerCaseCharacter) {
+ if (LowerCase) {
+  password = password.concat(LowerCase)
+}
+ while (!SpecialCharacter && !NumericCharacter && !UpperCaseCharacter && !LowerCaseCharacter) {
    alert("One of the previous must be chosen!")
  SpecialCharacter = confirm("Do you want your password to have special characters?");
  Numeric = confirm("Do you want your password to have Numeric characters?");
@@ -30,6 +42,7 @@ if (length <8 || length >128) {
 }
 
 }
+
 
 // Write password to the #password input
 function writePassword() {
