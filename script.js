@@ -17,29 +17,19 @@ if (length <8 || length >128) {
  }
 }
 
- var SpecialCharacters = confirm("Do you want your password to have special characters?");
- var Numeric = confirm("Do you want your password to have Numeric characters?");
- var UpperCase = confirm("Do you want your password to have Upper case characters?");
- var LowerCase = confirm("Do you want your password to have lower case characters?");
- while (SpecialCharacters, Numeric, UpperCase, LowerCase === false) {
+ var SpecialCharacter = confirm("Do you want your password to have special characters?");
+ var NumericCharacter = confirm("Do you want your password to have Numeric characters?");
+ var UpperCaseCharacter = confirm("Do you want your password to have Upper case characters?");
+ var LowerCaseCharacter = confirm("Do you want your password to have lower case characters?");
+ while (!SpecialCharacter, !NumericCharacter, !UpperCaseCharacter, !LowerCaseCharacter) {
    alert("One of the previous must be chosen!")
- SpecialCharacters = confirm("Do you want your password to have special characters?");
+ SpecialCharacter = confirm("Do you want your password to have special characters?");
  Numeric = confirm("Do you want your password to have Numeric characters?");
  UpperCase = confirm("Do you want your password to have Upper case characters?");
- LowerCase = confirm("Do you want your password to have lower case characters?");
+ LowerCaseCharacter = confirm("Do you want your password to have lower case characters?");
 }
+
 }
-
-
-
-
-
-
-
-
-
-
-
 
 // Write password to the #password input
 function writePassword() {
