@@ -17,9 +17,9 @@ The password will be generated and displayed in the box when you answer the prom
 
 ## Image 
 
-![The following is a screenshot of the deployed website](./assets.HWK-DEMO.png "Password Generator")
+![The following is a screenshot of the deployed website](./assets/HWK-DEMO.png)
 
-## Problems 
+## Problems:
 
 If the user presses cancel on confirmations, a password will be generated regardless of the user's preference. Unfortunately, this is a problem that must be addressed.
 
