@@ -41,6 +41,14 @@ if (length <8 || length >128) {
  LowerCaseCharacter = confirm("Do you want your password to have lower case characters?");
 }
 
+var randomPassword = ""
+      
+for (var i = 0; i < length; i++) {
+  randomPassword = randomPassword + password[Math.floor(Math.random() * password.length)];
+  console.log(randomPassword)
+}
+return randomPassword;
+
 }
 
 
